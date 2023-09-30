@@ -1,1 +1,54 @@
-<section class="your-order"></section>
+<section class="your-order">
+  <div class="container your-order-container">
+    <div class="your-order-wrapper">
+      <h2 class="your-order-title">
+        <span class="your-order-title-span">Your order</span> is our priority: Personalized approach
+        and quality of service
+      </h2>
+      <form class="review-form">
+        <div class="review-form-input-wrapper">
+          <input
+            class="review-form-input"
+            type="text"
+            name="user-name"
+            placeholder="Enter your full name"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            required
+          />
+        </div>
+        <div class="review-form-input-wrapper">
+          <input
+            class="review-form-input"
+            type="email"
+            placeholder="Enter your email"
+            name="user_email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            required
+          />
+        </div>
+        <div class="review-form-input-wrapper textarea">
+          <textarea
+            class="review-form-comment"
+            name="user-comment"
+            placeholder="Comments"
+          ></textarea>
+        </div>
+        <button class="review-form-submit" type="button">Send</button>
+      </form>
+    </div>
+    <img
+      class="your-order-product"
+      srcset="
+        ../img/your-order/product-t.jpg      638w,
+        ../img/your-order/product-t-@2x.jpg 1276w,
+        ../img/your-order/product-d.jpg      524w,
+        ../img/your-order/product-d-@2x.jpg 1048w
+      "
+      sizes="(min-width: 1280px) 524px, 
+                  (min-width: 768px) 638px"
+      src="../img/your-order/product-d.jpg"
+      alt="product"
+      height="521"
+    />
+  </div>
+</section>
