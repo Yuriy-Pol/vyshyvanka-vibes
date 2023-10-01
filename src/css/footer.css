@@ -13,11 +13,14 @@
   flex-wrap: wrap;
   justify-content: start;
   row-gap: 25px;
-  column-gap: 40px;
   padding-bottom: 40px;
 }
 
-.footer-menu li a {
+.footer-menu-item {
+  width: calc((100% - 25px)/2);
+}
+
+.footer-menu-link {
   color: #FCF9F9;
   font-size: 14px;
   font-style: normal;
@@ -26,8 +29,8 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-menu a:hover,
-.footer-menu a:focus {
+.footer-menu-link:hover,
+.footer-menu-link:focus {
   color: #ECD979;
   outline: transparent;
 }
@@ -88,6 +91,10 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .footer-menu {
     column-gap: 25px;
     padding-bottom: 80px;
+  }
+
+  .footer-menu-item {
+    width: auto;
   }
 
   .footer-paragraph {
