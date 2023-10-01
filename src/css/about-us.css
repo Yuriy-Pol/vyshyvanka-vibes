@@ -1,1 +1,39 @@
 /* ================ ABOUT US SECTION ================ */
+.about-us {
+  padding-top: 150px;
+}
+
+.about-us-conteiner {
+  /* margin: 0; */
+}
+
+.about-us-box {
+}
+
+.about-us-title {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 40px;
+  color: #fcf9f9;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -1.32px;
+}
+
+.about-us-text {
+  width: 481px;
+  color: rgba(252, 249, 249, 0.4);
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.text {
+  padding-bottom: 20px;
+}
+.about-us-picture {
+}
+
+.picture {
+}
