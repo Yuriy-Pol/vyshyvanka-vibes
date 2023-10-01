@@ -1,4 +1,5 @@
 <section class="your-order">
+  <div class="your-order-bg-img"></div>
   <div class="container your-order-container">
     <div class="your-order-wrapper">
       <h2 class="your-order-title">
@@ -33,20 +34,25 @@
             placeholder="Comments"
           ></textarea>
         </div>
-        <button class="review-form-submit" type="button">Send</button>
+        <button class="review-form-submit" type="button">
+          Send
+          <svg class="review-form-submit-icon" width="27" height="21">
+            <use href="./img/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
       </form>
     </div>
     <img
       class="your-order-product"
       srcset="
-        ../img/your-order/product-t.jpg      638w,
-        ../img/your-order/product-t-@2x.jpg 1276w,
-        ../img/your-order/product-d.jpg      524w,
-        ../img/your-order/product-d-@2x.jpg 1048w
+        ./img/your-order/product-t.jpg      638w,
+        ./img/your-order/product-t-@2x.jpg 1276w,
+        ./img/your-order/product-d.jpg      524w,
+        ./img/your-order/product-d-@2x.jpg 1048w
       "
       sizes="(min-width: 1280px) 524px, 
                   (min-width: 768px) 638px"
-      src="../img/your-order/product-d.jpg"
+      src="./img/your-order/product-d.jpg"
       alt="product"
       height="521"
     />
