@@ -2,17 +2,20 @@
 .your-order-product {
   display: none;
 }
-.your-order {
-  background-color: #1c2225;
-  padding-top: 630px;
+.your-order-bg-img {
   background-image: url(../img/your-order/girl-m.jpg);
   background-repeat: no-repeat;
-  margin: 0 auto;
   background-position-x: center;
+  height: 550px;
+  margin: 0 auto;
+}
+.your-order {
+  background-color: #1c2225;
+  margin: 0 auto;
   padding-bottom: 81px;
 }
 @media screen and (min-resolution: 192dpi) {
-  .your-order {
+  .your-order-bg-img {
     background-image: url(../img/your-order/girl-m-@2x.jpg);
   }
 }
@@ -24,6 +27,7 @@
   font-weight: 500;
   line-height: 1.38;
   letter-spacing: -0.96px;
+  margin-top: 80px;
   margin-bottom: 40px;
 }
 .your-order-title-span {
@@ -68,6 +72,7 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.28px;
+  resize: none;
 }
 .review-form-input:focus {
   color: #fcf9f9;
@@ -80,10 +85,11 @@
   outline: transparent;
 }
 .review-form-submit {
-  display: block;
+  display: flex;
   cursor: pointer;
   height: 49px;
   padding: 14px 36px;
+  text-align: center;
   justify-content: center;
   align-items: center;
   color: #fcf9f9;
@@ -100,19 +106,29 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
 }
+.review-form-submit-icon {
+  margin-left: 10px;
+}
 .review-form-submit:hover,
 .review-form-submit:focus {
   border: 1px solid var(--yellow, #ecd979);
 }
 @media screen and (min-width: 768px) {
+  .your-order-bg-img {
+    background-image: url(../img/your-order/girl-t.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 776px;
+    margin: 0 auto;
+  }
   .your-order {
-    background-image: url(../img/your-order/girl-t.jpg), url(../img/your-order/ornament.png);
-    background-position: center top, left 1845px;
-    padding-top: 876px;
     padding-bottom: 179px;
+    background-image: url(../img/your-order/ornament.png);
+    background-repeat: no-repeat;
+    background-position: 0 1830px;
   }
   @media screen and (min-resolution: 192dpi) {
-    .your-order {
+    .your-order-bg-img {
       background-image: url(../img/your-order/girl-t-@2x.jpg);
     }
   }
@@ -139,15 +155,22 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .your-order-bg-img {
+    background-image: url(../img/your-order/girl-1280.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 776px;
+    margin: 0 auto;
+  }
   .your-order {
-    background-image: url(../img/your-order/girl-1280.jpg), url(../img/your-order/ornament.png);
-    background-position: center top, -35px 1080px;
-    padding-top: 926px;
-    padding-bottom: 179px;
+    background-image: url(../img/your-order/ornament.png);
+    background-repeat: no-repeat;
+    background-position: -33px 1013px;
+    padding-bottom: 150px;
     position: relative;
   }
   @media screen and (min-resolution: 192dpi) {
-    .your-order {
+    .your-order-bg-img {
       background-image: url(../img/your-order/girl-1280-@2x.jpg);
     }
   }
@@ -165,15 +188,22 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .your-order-bg-img {
+    background-image: url(../img/your-order/girl-1440.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 776px;
+    margin: 0 auto;
+  }
   .your-order {
-    background-image: url(../img/your-order/girl-1440.jpg), url(../img/your-order/ornament.png);
-    background-position: center top, left 1080px;
-    padding-top: 926px;
-    padding-bottom: 179px;
+    background-image: url(../img/your-order/ornament.png);
+    background-repeat: no-repeat;
+    background-position: 0 1013px;
+    padding-bottom: 150px;
     position: relative;
   }
   @media screen and (min-resolution: 192dpi) {
-    .your-order {
+    .your-order-bg-img {
       background-image: url(../img/your-order/girl-1440-@2x.jpg);
     }
   }
