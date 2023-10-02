@@ -6,9 +6,9 @@
 .container-collection-bg-img {
   background-image: url(/img/Our-Collection/bg-mobile.png);
   background-repeat: no-repeat;
-  background-position-y: 240px, 20px;
+  background-position-y: 260px;
   background-position-x: left;
-  background-size: 72px;
+  background-size: 72px, 300px;
 }
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
@@ -70,8 +70,8 @@
 @media screen and (min-width: 768px) {
   .container-collection-bg-img {
     background-image: url(/img/Our-Collection/bg-table.png);
-    background-size: 114px;
-    background-position-y: 225px;
+    background-size: 114px, 300px;
+    background-position-y: 160px;
   }
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
@@ -135,9 +135,7 @@
   @media screen and (min-width: 1280px) {
     .container-collection-bg-img {
       background-image: url(/img/Our-Collection/bg.png);
-      background-size: 169px;
-      background-position-x: 150px;
-      background-position-y: 120px;
+      background-size: 169px, 300px;
     }
     @media screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx),
@@ -154,6 +152,21 @@
     align-items: center;
   }
   .collection-list-item {
-    width: calc((100% - 40px) / 4);
+    width: calc((100% - 40px) / 3);
+  }
+}
+/* ============= Desktop1440 ================ */
+@media screen and (min-width: 1440px) {
+  .container-collection-bg-img {
+    background-image: url(/img/Our-Collection/bg.png);
+    background-size: 169px, 300px;
+    background-position-y: 230px;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .container-collection-bg-img {
+      background-image: url(/img/Our-Collection/bg@2x.png);
+    }
   }
 }
