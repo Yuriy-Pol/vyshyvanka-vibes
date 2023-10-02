@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 1440px) {
     .container {
-        max-width: 14400px;
+        max-width: 1440px;
         overflow: hidden;
     }
 }
@@ -81,6 +81,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .testimonials-list {
@@ -182,6 +183,8 @@
         display: flex;
         align-items: flex-start;
         gap: 32px;
+        align-items: center;
+        justify-content: center;
     }
 
     .testimonials-list {
@@ -285,6 +288,8 @@
         display: flex;
         align-items: flex-start;
         gap: 26px;
+        align-items: center;
+        justify-content: center;
     }
 
     .testimonials-list {
@@ -387,6 +392,8 @@
         display: flex;
         align-items: flex-start;
         gap: 26px;
+        align-items: center;
+        justify-content: center;
     }
 
     .testimonials-list {
