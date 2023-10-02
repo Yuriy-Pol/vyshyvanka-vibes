@@ -117,6 +117,13 @@
   .position-container {
     margin-left: 40px;
   }
+  .hero-item-second {
+    position: relative;
+  }
+  .photo-small-ua {
+    position: absolute;
+    top: 887px;
+  }
 }
 @media screen and (min-width: 1279.8px) {
   .hero-wrapper {
@@ -138,6 +145,13 @@
   }
   .position-container {
     margin-top: 40px;
+  }
+  .hero-item-second {
+    position: relative;
+  }
+  .photo-small-ua {
+    position: absolute;
+    top: 385px;
   }
 }
 @media screen and (min-width: 1440px) {
