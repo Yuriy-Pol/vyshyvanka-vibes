@@ -1,6 +1,7 @@
 /* ================ HEADER ================ */
 .header {
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -63,6 +64,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    margin-bottom: 80px;
+  }
   .header-mobile-socials-block {
     gap: 20px;
   }
@@ -76,6 +80,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .header {
+    margin-bottom: 100px;
+  }
   .open-navigation-menu-btn {
     display: none;
   }
