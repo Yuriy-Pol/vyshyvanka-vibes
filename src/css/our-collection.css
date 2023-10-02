@@ -1,9 +1,9 @@
 /* ================ OUR COLLECTION SECTION ================ */
 .our-collection {
   background: #1c2225;
-  padding-top: 80px;
   padding-bottom: 60px;
 }
+
 .collection-main-title {
   color: var(--white, #fcf9f9);
   font-size: 32px;
@@ -55,7 +55,6 @@
 
 @media screen and (min-width: 768px) {
   .our-collection {
-    padding-top: 100px;
     padding-bottom: 100px;
   }
   .collection-main-title {
