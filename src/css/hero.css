@@ -124,10 +124,6 @@
     flex-direction: row;
     gap: 40px;
   }
-  body {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
   .reverse-mobile {
     display: flex;
     flex-direction: row;
