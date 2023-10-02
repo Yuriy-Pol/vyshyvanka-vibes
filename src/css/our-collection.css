@@ -6,7 +6,7 @@
 .container-collection-bg-img {
   background-image: url(/img/Our-Collection/bg-mobile.png);
   background-repeat: no-repeat;
-  background-position-y: 260px;
+  background-position-y: 254 px;
   background-position-x: left;
   background-size: 72px, 300px;
 }
@@ -71,7 +71,7 @@
   .container-collection-bg-img {
     background-image: url(/img/Our-Collection/bg-table.png);
     background-size: 114px, 300px;
-    background-position-y: 160px;
+    background-position-y: 157px;
   }
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
@@ -136,6 +136,7 @@
     .container-collection-bg-img {
       background-image: url(/img/Our-Collection/bg.png);
       background-size: 169px, 300px;
+      background-position-y: 170px;
     }
     @media screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx),
@@ -160,7 +161,7 @@
   .container-collection-bg-img {
     background-image: url(/img/Our-Collection/bg.png);
     background-size: 169px, 300px;
-    background-position-y: 230px;
+    background-position-y: 167px;
   }
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
