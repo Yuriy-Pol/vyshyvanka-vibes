@@ -161,7 +161,7 @@
   .container-collection-bg-img {
     background-image: url(/img/Our-Collection/bg.png);
     background-size: 169px, 300px;
-    background-position-y: 167px;
+    background-position-y: 231px;
   }
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
