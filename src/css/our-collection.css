@@ -1,1 +1,173 @@
 /* ================ OUR COLLECTION SECTION ================ */
+.our-collection {
+  background: #1c2225;
+  padding-bottom: 80px;
+}
+.container-collection-bg-img {
+  background-image: url(/img/Our-Collection/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-position-y: 254 px;
+  background-position-x: left;
+  background-size: 72px, 300px;
+}
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .container-collection-bg-img {
+    background-image: url(/img/Our-Collection/bg-mobile@2x.png);
+  }
+}
+
+.collection-main-title {
+  color: var(--white, #fcf9f9);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37;
+  font-style: normal;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.collection-title-mobile {
+  color: var(--white, #fcf9f9);
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+.collection-content-mobile {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+}
+
+.collection-title {
+  display: none;
+}
+.collection-content {
+  display: none;
+}
+.collection-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.collection-img {
+  border-radius: 4px;
+}
+
+/*================  TABLE  ==================*/
+
+@media screen and (min-width: 768px) {
+  .container-collection-bg-img {
+    background-image: url(/img/Our-Collection/bg-table.png);
+    background-size: 114px, 300px;
+    background-position-y: 157px;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .container-collection-bg-img {
+      background-image: url(/img/Our-Collection/bg-table@2x.png);
+    }
+  }
+  .our-collection {
+    padding-bottom: 100px;
+  }
+  .collection-main-title {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+  }
+  .collection-title-mobile {
+    display: none;
+  }
+  .collection-content-mobile {
+    display: none;
+  }
+  .collection-title {
+    height: 18px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--white, #fcf9f9);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 18px;
+    margin-bottom: 8px;
+  }
+  .collection-content {
+    display: block;
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+  }
+  .collection-list {
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .collection-list-item {
+    width: calc((100% - 20px) / 2);
+  }
+}
+/* ================== Desktop 1280px ==================== */
+@media screen and (min-width: 1280px) {
+  .our-collection {
+    padding-bottom: 150px;
+  }
+  @media screen and (min-width: 1280px) {
+    .container-collection-bg-img {
+      background-image: url(/img/Our-Collection/bg.png);
+      background-size: 169px, 300px;
+      background-position-y: 170px;
+    }
+    @media screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx),
+      screen and (min-device-pixel-ratio: 2) {
+      .container-collection-bg-img {
+        background-image: url(/img/Our-Collection/bg@2x.png);
+      }
+    }
+  }
+  .collection-list {
+    row-gap: 40px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .collection-list-item {
+    width: calc((100% - 40px) / 3);
+  }
+}
+/* ============= Desktop1440 ================ */
+@media screen and (min-width: 1440px) {
+  .container-collection-bg-img {
+    background-image: url(/img/Our-Collection/bg.png);
+    background-size: 169px, 300px;
+    background-position-y: 231px;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .container-collection-bg-img {
+      background-image: url(/img/Our-Collection/bg@2x.png);
+    }
+  }
+}
