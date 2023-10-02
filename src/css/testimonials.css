@@ -62,7 +62,7 @@
     .testimonials {
         width: 375px;
         background: #1c2225;
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
 
 
@@ -167,7 +167,7 @@
     .testimonials {
         background: #1c2225;
         width: 768px;
-        margin-bottom: 100px;
+        padding-bottom: 100px;
     }
 
     .testimonials_div {
@@ -271,7 +271,7 @@
     .testimonials {
         background: #1c2225;
         width: 1280px;
-        margin-bottom: 150px;
+        padding-bottom: 150px;
     }
 
     .testimonials_div {
@@ -374,7 +374,7 @@
     .testimonials {
         background: #1c2225;
         width: 1440px;
-        margin-bottom: 150px;
+        padding-bottom: 150px;
     }
 
     .testimonials_div {
