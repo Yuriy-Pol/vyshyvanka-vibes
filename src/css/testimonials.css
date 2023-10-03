@@ -1,4 +1,4 @@
-/* ================ TESTIMONIALS ================ */
+/* ================ TESTIMONIALS_1================ */
 .testimonials {
   margin: 0 auto;
 }
@@ -65,6 +65,7 @@
     width: 375px;
     background: #1c2225;
     padding-bottom: 80px;
+    width: 100%;
 
   }
 
@@ -72,11 +73,12 @@
   .testimonials_div {
     padding-left: 20px;
     padding-right: 20px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; */
     width: 335px;
+    width: 100%;
   }
 
   .title_testimonials {
@@ -87,19 +89,19 @@
     line-height: 64px;
     /* 145.455% */
     letter-spacing: -1.32px;
-    display: inline-flex;
-    align-items: flex-start;
+    /* display: inline-flex;
+    align-items: flex-start; */
     margin-bottom: 64px;
   }
 
-  .test_list {
+  /* .test_list {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
 
-  }
+  } */
 
   .testimonials-list {
     margin: auto;
@@ -140,6 +142,7 @@
     flex-direction: column;
     align-items: center;
     width: 291px;
+    width: 100%;
   }
 
   .icon_test {
