@@ -15,6 +15,9 @@
   margin: 0 auto;
   padding-bottom: 81px;
 }
+.your-order .container {
+  padding-top: 80px;
+}
 @media screen and (min-resolution: 192dpi) {
   .your-order-bg-img {
     background-image: url(../img/your-order/girl-m-@2x.jpg);
@@ -28,7 +31,6 @@
   font-weight: 500;
   line-height: 1.38;
   letter-spacing: -0.96px;
-  margin-top: 80px;
   margin-bottom: 40px;
 }
 .your-order-title-span {
@@ -128,6 +130,9 @@
     background-repeat: no-repeat;
     background-position: 0 1730px;
   }
+  .your-order .container {
+    padding-top: 100px;
+  }
   @media screen and (min-resolution: 192dpi) {
     .your-order-bg-img {
       background-image: url(../img/your-order/girl-t-@2x.jpg);
@@ -139,7 +144,6 @@
     font-weight: 500;
     line-height: 1.32;
     letter-spacing: -1.32px;
-    margin-top: 100px;
   }
   .review-form-input {
     max-width: 508px;
@@ -182,8 +186,8 @@
   .your-order-container {
     position: relative;
   }
-  .your-order-title {
-    margin-top: 150px;
+  .your-order .container {
+    padding-top: 150px;
   }
   .your-order-product {
     position: absolute;
