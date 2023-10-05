@@ -5,6 +5,7 @@
 }
 .hero {
   padding-bottom: 80px;
+  padding-top: 40px;
 }
 .hero-title {
   max-width: 335px;
@@ -89,6 +90,7 @@
     flex-direction: row;
   }
   .hero {
+    padding-top: 80px;
     padding-bottom: 100px;
   }
   .hero-title {
@@ -96,7 +98,6 @@
     max-width: 549px;
     font-size: 54px;
     line-height: 64px;
-    margin-right: 40px;
   }
   .hero-section-button {
     width: 168px;
@@ -110,31 +111,29 @@
   .reverse-mobile {
     display: flex;
     flex-direction: column-reverse;
+    margin-right: 40px;
   }
   .hero-section-button {
     margin-top: 40px;
-  }
-  .position-container {
-    margin-left: 40px;
   }
   .hero-item-second {
     position: relative;
   }
   .photo-small-ua {
     position: absolute;
-    top: 887px;
+    top: 847px;
   }
 }
 @media screen and (min-width: 1279.8px) {
   .hero-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 40px;
   }
   .reverse-mobile {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    margin-right: 15px;
   }
   .hero-title {
     margin-top: 80px;
@@ -160,9 +159,11 @@
     font-size: 64px;
     line-height: 74px;
     letter-spacing: -1.92px;
-    margin-right: 60px;
   }
   .position-container {
     margin-top: 90px;
+  }
+  .reverse-mobile {
+    margin-right: 60px;
   }
 }
